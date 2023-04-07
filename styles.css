@@ -85,3 +85,14 @@ img:hover {
 hr{
     visibility: hidden;
 }
+figure {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  figcaption {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 5px;
+  }
