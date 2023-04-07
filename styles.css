@@ -1,5 +1,5 @@
 main {
-    padding-top: 10em;
+    padding-top: 5em;
     text-align: center;
     background-color: rgb(31, 31, 31);
     margin: auto;
@@ -60,6 +60,30 @@ img:hover {
     -moz-user-select: none;
     user-select: none;
 }
-a{
-    margin-top: 2em;
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: .2em;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: solid;
+    font-size: 1.75em;
+
+}
+
+.top-bar {
+    color: #ccc;
+}
+hr{
+    visibility: hidden;
 }
