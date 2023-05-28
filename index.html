@@ -1,56 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="img/osu.png">
-    <title>Osu! things</title>
-    <script src="main/animations.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/osu.png">
+  <title>Osu! things</title>
 </head>
 
-<body>
-    <header>
-        <div class="top-bar">
-            <a href="https://ondrahonus.xyz" class="unselectable">Website</a>
-            <div class="container">
-                <a class="unselectable">qwerticek</a>
-            </div>
+<body class="bg-dark">
+  <header class="text-white text-center">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ondřej Honus</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <div class="bg-dark py-2">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">Home<span
+                    class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle under" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Anime List</a>
+                <div class="dropdown-menu bg-light" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="AnimeList/chronologically.html">Chronologically</a>
+                  <a class="dropdown-item" href="AnimeList/rating.html">Rating</a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <main>
-        <iframe src="https://osekai.net/profiles/img/banner.svg?id=20503654" frameborder="0" width="1000em"></iframe>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <figure>
-            <a href="https://osu.ppy.sh/users/20503654" target="_blank"><img src="img/osu.png" alt="osu!"></a>
-            <figcaption>Osu! Profile</figcaption>
-        </figure>
-        <figure>
-            <a href="https://www.youtube.com/@qwerticek" target="_blank"><img src="img/youtube.png" alt="clips"></a>
-            <figcaption>Osu! Clips</figcaption>
-        </figure>
-        <figure>
-            <a href="https://github.com/QWERTYONDRA" target="_blank"><img src="img/github.png" alt="github"></a>
-            <figcaption>Github Profile</figcaption>
-        </figure>
-        <hr>
-        <hr>
-        <p>You can download my skin here:</p>
-        <a href="osu-skin/index.html"><img src="img/download.png" alt="Download"></a>
-
-    </main>
-    <footer>
-        <div class="copyright">
-            <div class="unselectable">
-                Copyright &copy; 2023 - Ondřej Honus
-            </div>
-        </div>
-    </footer>
+      </div>
+    </nav>
+    <h2>Socials</h2>
+  </header>
+  <main>
+    <iframe src="https://osekai.net/profiles/img/banner.svg?id=20503654" frameborder="0" width="800em"></iframe>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <figure>
+        <a href="https://osu.ppy.sh/users/20503654" target="_blank"><img src="img/osu.png" alt="osu!"></a>
+        <figcaption>Osu! Profile</figcaption>
+    </figure>
+    <figure>
+        <a href="https://www.youtube.com/@qwerticek" target="_blank"><img src="img/youtube.png" alt="clips"></a>
+        <figcaption>Osu! Clips</figcaption>
+    </figure>
+    <figure>
+        <a href="https://github.com/QWERTYONDRA" target="_blank"><img src="img/github.png" alt="github"></a>
+        <figcaption>Github Profile</figcaption>
+    </figure>
+    <hr>
+    <hr>
+    <p>You can download my skin here:</p>
+    <a href="osu-skin/index.html"><img src="img/download.png" alt="Download"></a>
+  </main>
+  <footer>
+    <!-- place footer here -->
+    <p class="text-white">&copy; 2023 - Ondřej Honus</p>
+  </footer>
+  <script src="js/bootstrap.min.js"></script>
+  </script>
 </body>
 
 </html>
