@@ -23,7 +23,7 @@ img {
     border: 0.35em solid rgb(54, 54, 54);
     border-radius: 10em;
     position:relative;
-    margin: 1em 0 0 0;
+    margin: -2em 0 0 0;
 }
 img:hover {
     transform: scale(1.1);
